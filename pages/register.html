@@ -8,6 +8,15 @@
     <title>registration form</title>
 </head>
 <body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#form">Register</a></li>
+                <li><a href="#table">See Table</a></li>
+            </ul>
+        </nav>
+    </header>
+<section id="form">
     <h1>register</h1>
     <form action="" method="">
 <fieldset>
@@ -93,10 +102,77 @@
     <input type="button" value="register">
 
     <!-- Normal button, button, submit, reset -->
-    <button type="button">click</button>
-    <button type="submit">submit</button>
-    <button type="reset">reset</button>
+    <button type="button" id="btn-1">click</button>
+    <button type="submit" id="btn-2">submit</button>
+    <button type="reset" id="btn-3">reset</button>
+    <br>
+    <button type="send" id="btn-send">send</button>
 
-   </form>
+   </form> 
+</section>
+<section id="table">
+    <h2>HTML5 Table</h2>
+    <table border="1">
+        <tr>
+            <th>s/no</th>
+            <th>class</th>
+            <th>time</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>weddev</td>
+            <td>time</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>cyber</td>
+            <td>1pm</td>
+        </tr>
+    </table>
+    <table border="1">
+        <thead>
+            <tr>
+               <th rowspan="2"></th>
+               <th colspan="2">average</th>
+               <th rowspan="2">red eyes</th>
+            </tr>
+            <tr>
+                <th>height</th>
+                <th>weight</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>males</th>
+                <td>1.9</td>
+                <td>0.003</td>
+                <td>40%</td>
+            </tr>
+            <tr>
+                <th>female</th>
+                <td>1.7</td>
+                <td>0.002</td>
+                <td>43%</td>
+            </tr>
+        </tbody>
+    </table>
+    <table border="1">
+      <tr>
+       <td colspan="4">1</td>
+      </tr>
+      <tr>
+        <td rowspan="2">2</td>
+        <td rowspan="2">3</td>
+        <td colspan="2">4</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>6</td>
+      </tr>
+    <tr>
+        <td colspan="4">7</td>
+    </tr>
+    </table>
+</section>
 </body>
 </html>
